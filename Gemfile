@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby File.read('.ruby-version').strip.split('-').last
+ruby File.read('./.ruby-version').strip.split('-').last
 
 gem "sinatra", "~>1.4.7"
 gem "sinatra-contrib"
