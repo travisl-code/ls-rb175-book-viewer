@@ -1,5 +1,5 @@
   # A Ruby web service
-  - type: web
+  # - type: web
     name: sinatra
     env: ruby
     repo: https://github.com/travisl-code/ls-rb175-book-viewer
