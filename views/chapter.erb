@@ -1,0 +1,8 @@
+<h2 class="content-subhead"><%= @title %></h2>
+
+<!-- Commenting out previous solution for individual paragraphs -->
+<%# @ch_content.each do |paragraph| %>
+  <p><%#= paragraph %></p>
+<%# end %>
+
+<%= in_paragraphs(@ch_content) %>
