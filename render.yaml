@@ -1,7 +1,8 @@
   # A Ruby web service
-  # - type: web
+services:
+  - type: web
     name: sinatra
     env: ruby
     repo: https://github.com/travisl-code/ls-rb175-book-viewer
     buildCommand: bundle install
-    startCommand: bundle exec ruby main.rb
+    startCommand: bundle exec ruby book_viewer.rb
